@@ -5,7 +5,7 @@ const Header = (props) => {
     return (
         <Nav>
             <Logo>
-                <a Link to='/home' href='/home' alt='Home' >
+                <a href='/home' alt='Home' >
                     <img src='/images/logo.svg' alt="Kadru Skyrius" />
                 </a>
             </Logo>
