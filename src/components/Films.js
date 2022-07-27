@@ -1,15 +1,11 @@
 import styled from "styled-components";
-import ImgSlider from "./ImgSlider";
-import ViewerFilms from "./ViewerFilms";
-
+import ViewerFilms from "./Viewer/ViewerFilms";
 
 const Films = (props) => {
   return (
     <Container>
-
       <ViewerFilms />
     </Container>
-
   );
 };
 
@@ -20,7 +16,6 @@ const Container = styled.main`
   display: block;
   top: 150px;
   padding: 0 calc(3.5vw + 5px);
-
 
   &:after {
     content: "";

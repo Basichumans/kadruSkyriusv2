@@ -1,11 +1,10 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
 * {
   box-sizing: border-box;
 }
-
 
 body {
   background-color: white;
@@ -16,24 +15,81 @@ body {
   padding: 0;
 }
 
-a{
+a {
   color: black;
   text-decoration: none;
-
 }
 
-@media only screen and (min-width: 768px){
-  body{
+@media only screen and (min-width: 768px) {
+  body {
     font-size: 16px;
   }
 }
-@media only screen and (min-width: 480px)and (max-width: 768px){
-  body{
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
     font-size: 15px;
   }
 }
-@media only screen and (min-width: 479px){
-  body{
-    font-size:14px;
+@media only screen and (min-width: 479px) {
+  body {
+    font-size: 14px;
   }
+}
+/* .overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;border-style: value;
+  background-color: rgba(0,0,0,1);
+  z-index: 2;
+} */
+.modalContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 3;
+  
+}
+.modalVimeo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  z-index: 3;
+  
+}
+
+.closeBtn {
+  /* position: sticky;
+  top: 20px;
+  right: 20px;
+  margin-top: 100px; */
+  z-index: 1;
+}
+.modalRight{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 10px;
+  margin-left: 150px;
+  z-index: 7;
+}
+.closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin-top: 100px;
+  z-index: 1;
 }

@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import ImgSlider from "./ImgSlider";
-import ViewersAds from "./ViewerAds";
+import ViewersAds from "./Viewer/ViewerAds";
 
 
 

@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import ImgSlider from "./ImgSlider";
+import ViewersInfo from "./Viewer/ViewerInfo";
+
 
 
 const Info = (props) => {
   return (
     <Container>
-
-      {/* <ImgSlider /> */}
+      <ViewersInfo />
     </Container>
 
   );
@@ -17,11 +17,13 @@ const Container = styled.main`
   min-height: calc(100vh - 250px);
   overflow-x: hidden;
   display: block;
-  top: 72px;
+  top: 150px;
   padding: 0 calc(3.5vw + 5px);
 
 
   &:after {
+   /* ÷ background: url("/images/merlin_198051936_85fe1347-4a63-431b-aefd-ab8922f73215-superJumbo.jpg.webp") center center / cover */
+      /* no-repeat fixed; */
     content: "";
     position: absolute;
     inset: 0px;

@@ -1,16 +1,15 @@
 import styled from "styled-components";
-import ImgSlider from "./ImgSlider";
-import Viewers from "./Viewers";
+import Viewers from "./Viewer/Viewers";
 
 
 const Home = (props) => {
-    return (
-        <Container>
-            {/* <ImgSlider /> */}
-            <Viewers />
-        </Container>
+  return (
+    <Container>
+      {/* <ImgSlider /> */}
+      <Viewers />
+    </Container>
 
-    );
+  );
 };
 
 const Container = styled.main`
